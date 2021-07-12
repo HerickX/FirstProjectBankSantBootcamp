@@ -3,6 +3,7 @@ package oneDigitalInnovationPJT
 class Pessoa {
     var nome: String = "Herick"
     var cpf: String = "123.456.789.11"
+    private set
 }
 
 
