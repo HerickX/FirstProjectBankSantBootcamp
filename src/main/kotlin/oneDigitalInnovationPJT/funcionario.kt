@@ -1,0 +1,4 @@
+package oneDigitalInnovationPJT
+
+class funcionario {
+}
