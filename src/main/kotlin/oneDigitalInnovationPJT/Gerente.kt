@@ -3,10 +3,15 @@ package oneDigitalInnovationPJT
 class Gerente(
     nome: String,
     cpf: String,
-    salario: Double
+    salario: Double,
+    val senha: String
 
-) : funcionario(nome= nome, cpf= cpf, salario = salario) {
+) : funcionario(nome= nome, cpf= cpf, salario = salario), Logavel {
     override fun calculoAuxilio(): Double= salario*0.4
+
+    override fun login(): Boolean ="senha123" == senha
 
 
 }
+
+
